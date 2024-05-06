@@ -3,16 +3,32 @@
     src: url("../fonts/Diablo\ Light.ttf");
 }
 
+@media only screen and (max-width: 600px){
+
+    .img-fondo{
+        display: block;
+        width: 100%;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: top;
+    }
+}
+    
 html{
     font-family: "diablo_ligth"; 
 }
 .img-fondo{
-    width: 100%;
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-juego{
-    display: flex;
-    justify-content: top;
-    
+    width: 250px;
+    height: 150px;
 }
-
