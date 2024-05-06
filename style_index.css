@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "diablo_ligth";
+    src: url("Fonts/Diablo\ Light.ttf");
+}
+
+html{
+    font-family: "diablo_ligth"; 
+}
+.vista_principal{
+    width: 600px;
+    height: 800px;
+}
+
+.logo_juego{
+    display: flex;
+    justify-content: left;
+    
+}
+
