@@ -2,26 +2,19 @@
     font-family: "diablo_ligth";
     src: url("../fonts/Diablo\ Light.ttf");
 }
-
-@media only screen and (max-width: 600px){
-
-    .img-fondo{
-        display: block;
-        width: 100%;
-    }
-    
-    .container{
-        display: flex;
-        justify-content: top;
-    }
-}
     
 html{
     font-family: "diablo_ligth"; 
-}
+    background-image: url("../imagenes/artwork-fondo-mobile.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
+
 .img-fondo{
     display: none;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -31,4 +24,22 @@ html{
 .logo-juego{
     width: 250px;
     height: 150px;
+}
+
+.menu{
+    
+}
+
+
+@media only screen and (min-width: 600px){
+
+    .img-fondo{
+        display: block;
+        width: 100%;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: left;
+    }
 }
