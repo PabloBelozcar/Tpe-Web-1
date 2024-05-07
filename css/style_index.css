@@ -4,11 +4,9 @@
 }
     
 html{
-    font-family: "diablo_ligth"; 
-    background-image: url("../imagenes/artwork-fondo-mobile.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
+    font-family: "diablo_ligth";
+    background-color: #243334;
+    color: #b19d78 ;
 }   
 
 .img-fondo{
@@ -24,6 +22,10 @@ html{
 .logo-juego{
     width: 250px;
     height: 150px;
+}
+
+.item{
+    list-style: none;
 }
 
 .menu{
