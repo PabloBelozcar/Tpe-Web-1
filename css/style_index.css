@@ -44,4 +44,13 @@ html{
         display: flex;
         justify-content: left;
     }
+    .menu{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .item{
+        margin: opx 10px;
+        padding: 15px ;
+    }
 }
