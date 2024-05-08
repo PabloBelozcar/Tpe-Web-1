@@ -1,9 +1,7 @@
-"use strict"
-/*posible error*/
-let btn = document.querySelector('#boton');
-btn.addEventListener('click', toggleMenu);
+const menuBtn= document.querySelector("#btn-menu");
+const containerMenu= document.querySelector("#menu-container");
 
-function toggleMenu(){
-    let abrir = document.querySelector('.barra-navegacion');
-    abrir.classList.toggle('open');
-}
+menuBtn.addEventListener("click", function(){
+    containerMenu.classList.toggle("open");
+})
+
