@@ -40,24 +40,11 @@ html{
     align-items: center;
 }
 
-.logo-juego{
-    width: 250px;
-    height: 150px;
-}
-
 .item{
     list-style: none;
 }
 .separador{
     margin-bottom: 50%;
-    margin: 1%;
-}
-
-.menu{
-    
-}
-.footer{
-  
 }
 
 @media (width >= 768px){
