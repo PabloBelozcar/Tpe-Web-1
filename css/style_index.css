@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "diablo_ligth";
+    font-family: "diablo-ligth";
     src: url("../fonts/Diablo\ Light.ttf");
 }
     
 html{
-    font-family: "diablo_ligth";
+    font-family: "Sedan SC", serif;
     background-color: #243334;
     color: #b19d78 ;
 }   
@@ -14,8 +14,26 @@ html{
     height: 150px;
 }
 
+.barra-navegacion{
+    font-family: "diablo-ligth";
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-login{
+    display: inline-block;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+
+.contenedor-login a{
+    color: #b19d78;
+    text-decoration: none;
+}
+
 #menu{
     display: inline-block;
+    padding-top: 0px;
     padding-left: 10px;
 }
 
@@ -29,6 +47,7 @@ html{
     text-decoration: none;
 
 }
+
 
 .img-fondo{
     display: none;
