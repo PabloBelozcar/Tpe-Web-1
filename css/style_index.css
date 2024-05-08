@@ -9,6 +9,27 @@ html{
     color: #b19d78 ;
 }   
 
+.logo-juego{
+    width: 250px;
+    height: 150px;
+}
+
+#menu{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#menu li{
+    list-style: none;
+    padding: 3px;
+}
+
+#menu li a{
+    color: #b19d78;
+    text-decoration: none;
+
+}
+
 .img-fondo{
     display: none;
 }
@@ -19,18 +40,6 @@ html{
     align-items: center;
 }
 
-.logo-juego{
-    width: 250px;
-    height: 150px;
-}
-
-.item{
-    list-style: none;
-}
-
-.menu{
-    
-}
 .footer{
 
 }
@@ -46,7 +55,7 @@ html{
         display: flex;
         justify-content: left;
     }
-    .menu{
+    #menu{
         display: flex;
         margin-left: 10px;
         margin-right: 10px;

@@ -5,3 +5,5 @@
 2. div footer acomodar
 3. subir el logo del diablo
 4. acomodar el fondo o agregar algo para que no sea tan monotono
+5. agregar h1 etc
+6. averiguar lo de la fuente
