@@ -31,8 +31,13 @@ html{
 .menu{
     
 }
-.footer{
 
+.separador{
+    margin: 1%;
+    margin-bottom: 50%;
+}
+.footer{
+  
 }
 
 @media (width >= 768px){
