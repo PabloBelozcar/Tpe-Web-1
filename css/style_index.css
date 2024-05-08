@@ -48,6 +48,9 @@ html{
 .item{
     list-style: none;
 }
+.separador{
+    margin-bottom: 50%;
+}
 
 .menu{
     
