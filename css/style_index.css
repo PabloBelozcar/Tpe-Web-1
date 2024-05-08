@@ -64,6 +64,10 @@ html{
 .separador{
     margin-bottom: 50%;
 }
+.bordes{
+    border-bottom: 2px solid #b19d78 ;
+    padding-bottom:2px ;
+}
 
 @media (width >= 768px){
 
