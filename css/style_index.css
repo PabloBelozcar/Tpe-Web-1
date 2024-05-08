@@ -21,7 +21,7 @@ html{
     display: none;
 }
 
-.barra-navegacion.open{
+.open{
     display: block;
 }
 
