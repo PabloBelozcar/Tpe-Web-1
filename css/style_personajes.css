@@ -1,0 +1,30 @@
+.clases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barra{
+   
+}
+.menu-container{
+    display: none;
+}
+.menu-container.open{
+    display: flex;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width > 768){
+
+}

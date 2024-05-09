@@ -7,3 +7,4 @@
 4. acomodar el fondo o agregar algo para que no sea tan monotono
 5. agregar h1 etc
 6. averiguar lo de la fuente
+7. vincular el html de pjs al index 
