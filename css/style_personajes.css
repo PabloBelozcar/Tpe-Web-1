@@ -2,15 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .barra{
-   
+   display: flex;
+   justify-content: space-between;
 }
 .menu-container{
     display: none;
 }
 .menu-container.open{
     display: flex;
+    justify-content: center;
 }
    
 
