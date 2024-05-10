@@ -1,3 +1,11 @@
+ 
+html{
+    font-family: "Sedan SC", serif;
+    background-color: #0F2627;
+    color: #b19d78 ;
+}   
+
+
 .clases{
     display: flex;
     flex-direction: column;
@@ -15,9 +23,25 @@
     display: flex;
     justify-content: center;
 }
+#btn-menu-pj{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 20px;
+    background-color:#243334 ;
+    font-weight: bold;
+    color: #b19d78;
+}
    
+.login{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
-
+.login a{
+    color: #b19d78;
+    text-decoration: none;
+}
 
 
 
