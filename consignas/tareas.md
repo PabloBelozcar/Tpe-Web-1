@@ -8,3 +8,8 @@
 5. agregar h1 etc
 6. averiguar lo de la fuente
 7. vincular el html de pjs al index 
+
+
+**PREGUNTAS**
+
+1. repetir codigo en diferentes archivos css
