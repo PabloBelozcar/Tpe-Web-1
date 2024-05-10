@@ -25,11 +25,13 @@ html{
     justify-content: space-between;
 }
 
-.barra-navegacion{
+#menu-container{
     display: none;
+    position: absolute;
+    background-color:#243334;
 }
 
-.barra-navegacion.open{
+#menu-container.open{
     font-family: "diablo-ligth";
     display: flex;
 }
