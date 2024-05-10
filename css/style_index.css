@@ -9,6 +9,11 @@ html{
     color: #b19d78 ;
 }   
 
+h2{
+    color: #d1b98d;
+    font-family: "diablo-ligth";
+}
+
 .container-logo{
     display: flex;
     justify-content: center;
@@ -106,6 +111,36 @@ html{
     display: none;
 }
 
+.preview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-preview{
+    margin-left: 10%;
+    margin-top: 5%; 
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.imagen-preview{
+    margin: 5%;
+    width: 250px;
+    height: 100px;
+}
+
+/* PREGUNTARLE A LA CHANCHA SI VA EN LAS MEDIA QUERY*/
+.imagen-preview img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.3s;
+}
+
+.imagen-preview img:hover{
+    box-shadow: 0 0 15px rgb(187, 97, 13);
+}
+/*###################################################*/
 
 @media (width >= 768px){
 
