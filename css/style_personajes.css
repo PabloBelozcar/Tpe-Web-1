@@ -9,8 +9,7 @@ html{
 .clases{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .barra{
@@ -70,9 +69,19 @@ html{
     font-size: 24px;
 }
 
+.separador{
+    display: flex;
+    width: 250px;
+}
 
+table, td, tr{
+    border: solid 1px;
+    border-collapse: collapse;
+}
 
-
+td, tr{
+    background-color: #0f1a27;
+}
 
 
 
