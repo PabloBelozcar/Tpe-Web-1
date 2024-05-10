@@ -72,6 +72,7 @@ html{
 .separador{
     display: flex;
     width: 250px;
+    margin: 5px;
 }
 
 table, td, tr{
@@ -80,11 +81,19 @@ table, td, tr{
 }
 
 td, tr{
-    background-color: #0f1a27;
+    background-color: #243334;
 }
 
 
 
-@media (width > 768){
-
-}
+@media (width >= 768px){
+    #btn-menu-pj{
+        display: none;
+    }
+    .menu-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+   
+}   
