@@ -1,7 +1,11 @@
-const menuBtn= document.querySelector("#btn-menu");
-const containerMenu= document.querySelector("#menu-container");
+const btnAbrir=document.querySelector("#abrir");
+const btnCerrar=document.querySelector("#cerrar");
+const nav=document.querySelector("#menu-container");
 
-menuBtn.addEventListener("click", function(){
-    containerMenu.classList.toggle("open");
+btnAbrir.addEventListener("click", function(){
+    nav.classList.add("open")
 })
 
+btnCerrar.addEventListener("click", function(){
+    nav.classList.remove("open")
+})
