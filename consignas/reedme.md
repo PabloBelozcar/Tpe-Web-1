@@ -20,7 +20,7 @@ El sitio web debe tener como mínimo:
 3. una lista ordenada o desordenada (diferente a la de navegación)
 4. una tabla
 5. un formulario de contacto
-6. una imágen
+6. una imágen (done)
 7. validación por Javascript del formulario con un captcha
 
 *OPCIONALES*
