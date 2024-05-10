@@ -60,6 +60,7 @@ html{
 
 #menu li a{
     color: #b19d78;
+    list-style: none;
     text-decoration: none;
 }
 

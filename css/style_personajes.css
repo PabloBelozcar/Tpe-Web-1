@@ -12,6 +12,7 @@ html{
     align-items: center;
     justify-content: center;
 }
+
 .barra{
    display: flex;
    justify-content: space-between;
@@ -23,6 +24,24 @@ html{
     display: flex;
     justify-content: center;
 }
+
+#menu-pjs{
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+#menu-pjs li{
+    list-style: none;
+    padding: 3px;
+}
+
+#menu-pjs a{
+    color: #b19d78;
+    list-style: none;
+    text-decoration: none;
+}
+
 #btn-menu-pj{
     margin-left: 10px;
     margin-top: 10px;
@@ -42,9 +61,14 @@ html{
     color: #b19d78;
     text-decoration: none;
 }
+.imagen-pj{
+    width: 250px;
+    height: 150px;
+}
 
-
-
+#casadora{
+    font-size: 24px;
+}
 
 
 
