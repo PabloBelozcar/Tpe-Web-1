@@ -12,4 +12,6 @@
 
 **PREGUNTAS**
 
-1. repetir codigo en diferentes archivos css
+1. repetir codigo en diferentes archivos css NO SE REPITEN
+
+YA LO ARREGLE
