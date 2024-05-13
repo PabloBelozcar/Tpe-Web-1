@@ -15,12 +15,12 @@
 
 El sitio web debe tener como mínimo:
 
-1. tres archivos HTML (3 páginas contando el Home)
-2. una barra o menú de navegación, que permita navegar entre las páginas del sitio
+1. tres archivos HTML (3 páginas contando el Home) ***done***
+2. una barra o menú de navegación, que permita navegar entre las páginas del sitio ***done***
 3. una lista ordenada o desordenada (diferente a la de navegación)
-4. una tabla
-5. un formulario de contacto
-6. una imágen (done)
+4. una tabla ***done***
+5. un formulario de contacto ***done***
+6. una imágen ***done***
 7. validación por Javascript del formulario con un captcha
 
 *OPCIONALES*

@@ -28,6 +28,7 @@ h2{
 .container-navegacion{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3%;
 }
 
 #menu-container{
@@ -126,7 +127,7 @@ h2{
 .imagen-preview{
     margin: 5%;
     width: 250px;
-    height: 100px;
+    height: 150px;
 }
 
 /* PREGUNTARLE A LA CHANCHA SI VA EN LAS MEDIA QUERY*/
