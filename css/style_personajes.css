@@ -1,6 +1,7 @@
 h1{
     font-family: "diablo-ligth";
     font-weight: bold;
+    font-size: 20px;
 }
 
 .imagen-preview img{
@@ -11,25 +12,46 @@ h1{
 
 .separador{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tabla{
     display: flex;
+    justify-content: center;
     width: 100%;
     margin-bottom: 3%;
+}
+
+.texto-descriptivo{
+    margin-left: 5%
 }
 
 table, td, tr{
     border: solid 1px;
     border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
 }
 
 td, tr{
     background-color: #243334;
 }
 
+.conjuntos{
+    display: flex;
+    flex-direction: column;
+}
 
+.conjuntos-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-clase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (width >= 768px){
     .imagen-preview{
@@ -52,5 +74,12 @@ td, tr{
         object-fit: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .tabla{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 3%;
     }
 }   
