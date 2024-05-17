@@ -11,6 +11,9 @@ console.log(pin1,pin2,pin3,pin4);
 
 contenido.innerHTML = "su pin es:" +" " + pin1 +" "+ pin2 +" "+ pin3 +" "+ pin4;
 
+const B= document.getElementById("A");
+B.innerHTML= "<p>Ingrese su Pin<input type=number id=texto oninput=resultado()></input></p>"
+
 function resultado(){
     let contenedor = document.getElementById("texto");
     let guardar =  contenedor.value;
