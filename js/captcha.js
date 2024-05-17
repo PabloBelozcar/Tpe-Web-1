@@ -16,14 +16,16 @@ function resultado(){
     let guardar =  contenedor.value;
     console.log(guardar);
 }
+let contenedor = document.getElementById("texto").value;
+let num= parseInt (contenedor);
 
-function verificar(){
-    let btn = document.getElementById("boton");
-    btn.addEventListener("click", comprobar);
-}
+const btn = document.getElementById("boton");
+btn.addEventListener("click", comprobar);
+
+
 
 function comprobar(){
-    if(contenedor==pin1)
+    if(num==pin1 && pin2 && pin3 && pin4)
         alert("su pin es correcto");
     else
         alert("su pin es incorrecto");
