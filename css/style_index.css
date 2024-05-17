@@ -6,18 +6,19 @@
 html{
     font-family: "Sedan SC", serif;
     background-color: #0F2627;
-    color: #b19d78 ;
+    color: #e4a772;
+    text-shadow: 2px 2px 2px #243334;
 }   
 
 
 a:visited{
     text-decoration: none;
-    color: #b19d78 ;
+    color: #e4a772;
 }
 
 a:link{
     text-decoration: none;
-    color: #b19d78 ;
+    color: #e4a772;
 }
 
 h2{
@@ -32,6 +33,7 @@ h2{
 }
 
 .logo-juego{
+    position: absolute;
     width: 250px;
     height: 150px;
 }
@@ -40,6 +42,7 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 3%;
+    backdrop-filter: blur(20px);
 }
 
 #menu-container{
@@ -120,7 +123,9 @@ h2{
 }
 
 .img-fondo{
-    display: none;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .preview{
@@ -156,6 +161,7 @@ h2{
 .footer{
     margin-top: 20%;
     font-family: "diablo-ligth";
+    backdrop-filter: blur(25px);
 }
 
 
@@ -174,8 +180,9 @@ h2{
 
    .logo-juego{
         position: absolute;
-        min-width: 200px;
-        min-height: 150px;
+        min-width: 450px;
+        min-height: 300px;
+        filter: drop-shadow(5px 5px 5px rgb(84, 78, 78));
    } 
     
     #menu{
