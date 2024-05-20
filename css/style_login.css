@@ -1,20 +1,26 @@
+html{
+    background-image: url(../imagenes/fondo-pantalla-movil-vertical-textura-pergamino-envejecido-bordes-oscuros-andrajosos_892776-5069.jpg);
+    background-repeat: no-repeat;
+}
+
 .espacios{
     margin: 10rem;
     padding: 10rem;
 }
 
-.vista-principal{
+.seccion-login{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
+    margin-bottom: 2%;
 }
 
 .contenedor{
-    border: 2px solid #243334;
-    box-shadow: 0 0 15px rgb(187, 97, 13);
-    background: #12110F;
+    border: 1px solid #000000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 15);
+    background: #243334;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,4 +88,10 @@ input:valid ~ label{
 
 .boton-acceder:hover{
     opacity: 0.5;
+}
+
+@media (width >= 485px){
+    html{
+        background-image: url(../imagenes/parchment-1148173.jpg);
+    }
 }

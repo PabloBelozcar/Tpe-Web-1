@@ -71,7 +71,7 @@ h2{
 }
 
 .contenedor-login a{
-    color: #b19d78;
+    color: #e4a772;
     text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ h2{
 }
 
 #menu li a{
-    color: #b19d78;
+    color: #e4a772;
     list-style: none;
     text-decoration: none;
     padding-top: 10px;
@@ -103,7 +103,7 @@ h2{
     height: 20px;
     background-color:#243334 ;
     font-weight: bold;
-    color: #b19d78;
+    color: #e4a772;
 }
 
 #abrir{
@@ -159,9 +159,10 @@ h2{
 }
 
 .footer{
-    margin-top: 20%;
+    margin-top: 10%;
     font-family: "diablo-ligth";
-    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: right;
 }
 
 
@@ -206,7 +207,8 @@ h2{
     .container-navegacion{
         border:1px solid;
         background-color:  #0F2627;
-    }
+        box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+        }
 
     #menu-container{
         opacity: 1;
@@ -219,6 +221,16 @@ h2{
 
     .contenedor-login{
         padding-top: 16px;
+    }
+
+    .footer{
+        border: 1px solid;
+        background-color: #0F2627;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    }
+
+    .footer a{
+        margin-right: 1%;
     }
 
 }
