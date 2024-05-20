@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "diablo-ligth";
+    src: url("../Fonts/Diablo\ Light.ttf");
+}
+
+html{
+    font-family: "Sedan SC", serif;
+    background-color: #0F2627;
+    color: #e4a772;
+    text-shadow: 2px 2px 2px #243334;
+}   
+
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+@media (width >= 768px){
+
+}
