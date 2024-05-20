@@ -3,14 +3,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/style_contacto.css">
 </head>
 <body>
     <div>
+        <div class="formulario">
+            <form action="contacto.html" method="post">
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="text" name="Asunto" placeholder="Asunto">
+                <input type="text" name="Mensaje" placeholder="Mensaje">
+        </div>
+       
         <div id="captcha"></div>
         <div>
             <p id="A"></p>
-            <button id="boton">Verificar</button>
+            <button type="submit" id="boton">Verificar</button>
         </div>
+    </form>
     </div>
 <script type="text/javascript" src="js/captcha.js"></script>    
 </body>
