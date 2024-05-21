@@ -25,7 +25,7 @@ function comprobar(pin1){
     let contenedor = document.getElementById("texto").value;
     let num=parseInt(contenedor);
     if(pin1==num)
-        window.location.href = "login.html";
+        alert("su pin es correcto");
     else
         alert("su pin es incorrecto");
         
