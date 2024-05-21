@@ -1,32 +1,28 @@
 const contenido = document.getElementById("captcha");
+let pin = codigo();
 
-let pin1 = Math.floor(1000+(Math.random()*9000));
 
-
-console.log(pin1);
-
-contenido.innerHTML = "su pin es:" +" " + pin1;
-
-document.getElementById("texto").oninput=resultado()
-
-function resultado(){
-    let contenedor = document.getElementById("texto");
-    let guardar =  contenedor.value;
-    console.log(guardar);
+function codigo(){
+    let pin = Math.floor(1000+(Math.random()*9000));
+    contenido.innerHTML = "su pin es:" +" " + pin;
+    return pin;
 }
 
-
 const btnVerificar = document.getElementById("boton-verificar");
-btnVerificar.addEventListener("click", function(){comprobar(pin1)});
+const verificado = document.querySelector("#check");
+
+btnVerificar.addEventListener("click", comprobar);
 
 
-
-function comprobar(pin1){
+function comprobar(){
     let contenedor = document.getElementById("texto").value;
     let num=parseInt(contenedor);
-    if(pin1==num)
-        window.location.href = "login.html";
-    else
+    if(pin==num){
+        btnVerificar.classList.add("ocultar-boton")
+        verificado.innerHTML = "\u2705"}
+    else{
         alert("su pin es incorrecto");
-        
+        pin=codigo();
+        contenido.innerHTML= "Su nuevo pin es:"+" "+ pin;
+    }
 }

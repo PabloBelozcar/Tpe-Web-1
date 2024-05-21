@@ -10,6 +10,10 @@
 7. vincular el html de pjs al index 
 
 
+*HACER LO DEL BOTON VERIFICAR*
+*HTML PJ REACER*
+*HACER OTRA TABLA FUNCIONAL PENSAR*
+
 **PREGUNTAS**
 
 1. repetir codigo en diferentes archivos css NO SE REPITEN
