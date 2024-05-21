@@ -7,8 +7,7 @@ console.log(pin1);
 
 contenido.innerHTML = "su pin es:" +" " + pin1;
 
-const B= document.getElementById("A");
-B.innerHTML= "<p>Ingrese su Pin para ingresar<input type=number id=texto oninput=resultado()></input></p>"
+document.getElementById("texto").oninput=resultado()
 
 function resultado(){
     let contenedor = document.getElementById("texto");
@@ -17,10 +16,8 @@ function resultado(){
 }
 
 
-
-
-const btn = document.getElementById("boton");
-btn.addEventListener("click", function(){comprobar(pin1)});
+const btnVerificar = document.getElementById("boton-verificar");
+btnVerificar.addEventListener("click", function(){comprobar(pin1)});
 
 
 

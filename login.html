@@ -18,32 +18,33 @@
             <ul id="menu">
                 <button class="boton" id="cerrar">Volver</button>
                 <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
-        <nav class="contenedor-login">
-            <a href="index.html">Home</a>
-        </nav>
     </div>
-    <span class="espacios">
-        <!-- -->
-    </span>
+    <span class="espacios"></span>
     <section class="seccion-login">
         <div class="contenedor">
             <div class="formulario">
                 <form action="" id="form">
                     <h2>Iniciar Sesión</h2>
-                    <div class="contenedor-imputs">
+                    <div class="contenedor-inputs">
                         <input type="email"  id="Email" name="email" required>
                         <label for="Email">Email</label>
                     </div>
-                    <div class="contenedor-imputs">
+                    <div class="contenedor-inputs">
                         <input type="usuario" id="Usuario" name="usuario" required>
                         <label for="Usuario">Usuario</label>
                     </div>
-                    <div class="contenedor-imputs">
+                    <div class="contenedor-inputs">
                         <input type="password" id="Contraseña" name="password" required>
                         <label for="Contraseña">Contraseña</label>
+                    </div>
+                    <div id="captcha"></div>
+                    <div class="contenedor-captcha">
+                        <p>Ingrese el Pin para saber si no es un robot</p>
+                        <input type=number id=texto required></input>
+                        <button type="submit" id="boton-verificar">Verificar</button>
                     </div>
                     <div>
                         <button class="boton-acceder">Acceder</button>
@@ -57,4 +58,5 @@
     </div>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/captcha.js"></script>
 </body>

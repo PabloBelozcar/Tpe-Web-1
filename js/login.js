@@ -10,5 +10,3 @@ let usuario=formData.get("usuario");
 let password=formData.get("password");
 console.log(email,usuario,password);
 }
-
-//console.log(email.usuario.password);

@@ -63,17 +63,6 @@ h2{
     visibility: visible;
 }
 
-.contenedor-login{
-    display: inline-block;
-    padding-top: 10px;
-    padding-right: 10px;
-    font-family: "diablo-ligth";
-}
-
-.contenedor-login a{
-    color: #e4a772;
-    text-decoration: none;
-}
 
 #menu{
     display: inline-block;
