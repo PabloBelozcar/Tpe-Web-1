@@ -1,5 +1,4 @@
 html{
-    background-image: url(../imagenes/fondo-pantalla-movil-vertical-textura-pergamino-envejecido-bordes-oscuros-andrajosos_892776-5069.jpg);
     background-repeat: no-repeat;
 }
 
@@ -132,7 +131,5 @@ input:valid ~ label{
 }
 
 @media (width >= 485px){
-    html{
-        background-image: url(../imagenes/parchment-1148173.jpg);
-    }
+
 }
