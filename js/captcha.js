@@ -21,8 +21,7 @@ function comprobar(){
         btnVerificar.classList.add("ocultar-boton")
         verificado.innerHTML = "\u2705"}
     else{
-        alert("su pin es incorrecto");
         pin=codigo();
-        contenido.innerHTML= "Su nuevo pin es:"+" "+ pin;
+        contenido.innerHTML= "Su pin es incorrecto, su nuevo pin es:"+" "+ pin;
     }
 }
