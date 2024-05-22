@@ -1,0 +1,25 @@
+table, td, tr{
+    border: 2px solid #e4a772;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    width: 50%;
+}
+
+.texto-fondo{
+    background-color:#0F2627;
+    outline: none;
+    border: 0;
+    color: #e4a772;
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
