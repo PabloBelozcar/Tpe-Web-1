@@ -17,7 +17,8 @@
             <ul id="menu">
                 <button class="boton" id="cerrar">Volver</button>
                 <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="crea_builds.html">Crea tu build</a></li>
+                <li><a href="index.html">Pagina Principal</a></li>
             </ul>
         </nav>
     </div>
@@ -26,18 +27,18 @@
         <div class="contenedor">
             <div class="formulario">
                 <form action="" id="form">
-                    <h2>Iniciar Sesión</h2>
+                    <h2>Contactate</h2>
                     <div class="contenedor-inputs">
                         <input type="email"  id="Email" name="email" required>
                         <label for="Email">Email</label>
                     </div>
                     <div class="contenedor-inputs">
                         <input type="usuario" id="Usuario" name="usuario" required>
-                        <label for="Usuario">Usuario</label>
+                        <label for="Usuario">Nombre</label>
                     </div>
                     <div class="contenedor-inputs">
-                        <input type="password" id="Contraseña" name="password" required>
-                        <label for="Contraseña">Contraseña</label>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="msj-usuario" id="mensaje" required></textarea>
                     </div>
                     <div id="captcha"></div>
                     <div class="contenedor-captcha">
@@ -46,6 +47,7 @@
                         <span id="check"></span>
                         <button type="submit" id="boton-verificar">Verificar</button>
                     </div>
+
                     <div>
                         <button class="boton-acceder">Acceder</button>
                     </div>
@@ -57,6 +59,6 @@
         <a href="login.html"><p>Volver arriba</p></a>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
     <script type="text/javascript" src="js/captcha.js"></script>
 </body>
