@@ -7,8 +7,8 @@ async function ObtenerDatos(){
         let json= await respuesta.json();
         console.log(json);
         for (const build of json) {
-            let item= build.item;
-            tabla.innerHTML+=`<p>${item.nombre}</p>`;
+            let nombre= build.nombre;
+            tabla.innerHTML+=`<p>${nombre}</p>`;
         }
     }catch(error){
         console.log(error);
