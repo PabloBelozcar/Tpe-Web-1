@@ -1,14 +1,13 @@
 async function ObtenerDatos(){
    const url='https://66772ee7145714a1bd740614.mockapi.io/api/Build';
-   const tabla= document.querySelector("#EspacioVacio")
+   const tabla= document.querySelector("#espacioVacio")
    tabla.innerHTML="";
-   try{
+     try{
         let respuesta= await fetch(url);
         let json= await respuesta.json();
         console.log(json);
         for (const build of json) {
-            let nombre= build.nombre;
-            tabla.innerHTML+=`<p>${nombre}</p>`;
+            tabla.innerHTML+=`<tr><td>${build.nombre}</td></tr>`;
         }
     }catch(error){
         console.log(error);
