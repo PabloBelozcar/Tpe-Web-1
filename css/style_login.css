@@ -37,10 +37,11 @@ html{
 
 .contenedor-inputs{
     position: relative;
-    margin: 20px 0;
+    margin: 17px 0;
     width: 200px;
     border-bottom: 1px solid;
 }
+
 
 .contenedor-inputs label{
     position: absolute;
@@ -71,9 +72,23 @@ input:valid ~ label{
     margin: 7px;
 }
 
+#mensaje{
+    background-color: transparent;
+    border: 1px solid #d1b98d;
+    outline: none;
+    width: 150px;
+    height: 80px;
+    box-sizing: border-box;
+    vertical-align: top; 
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #d1b98d;
+}
+
 .contenedor-captcha{
     position: relative;
-    margin: 12px 0;
+    margin: 10px 0;
     width: 200px;
     border-bottom: 1px solid;
 }
@@ -113,6 +128,7 @@ input:valid ~ label{
 .boton-acceder{
     margin-top: 5px;
     margin-left: 25px;
+    margin-bottom: 20px;
     width: 150px;
     height: 45px;
     background: #d1b98d;
@@ -128,8 +144,4 @@ input:valid ~ label{
 
 .boton-acceder:hover{
     opacity: 0.5;
-}
-
-@media (width >= 485px){
-
 }

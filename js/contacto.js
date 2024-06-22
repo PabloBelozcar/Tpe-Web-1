@@ -6,6 +6,6 @@ function agregar(e){
 let formData= new FormData(form);
 let email=formData.get("email");
 let usuario=formData.get("usuario");
-let password=formData.get("password");
-console.log(email,usuario,password);
+let msj=formData.get("msj-usuario");
+console.log(email,usuario,msj);
 }
