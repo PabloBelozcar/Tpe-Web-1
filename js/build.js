@@ -1,6 +1,6 @@
 async function ObtenerDatos(){
    const url='https://66772ee7145714a1bd740614.mockapi.io/api/Build';
-   const tabla= document.querySelector("#espacioVacio")
+   const tabla= document.querySelector("#body")
    tabla.innerHTML="";
      try{
         let respuesta= await fetch(url);
