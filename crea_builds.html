@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build</title>
     <link rel="stylesheet" href="css/style_index.css">
-    <link rel="stylesheet" href="css/style_tabla.css">
+    <link rel="stylesheet" href="css/style_builds.css">
 </head>
 <body>
     <div class="container-navegacion">
@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </div>
-    <div class="centro">
+    <section class="centro">
         <h2>Mejores Objetos</h2>
         <table>
             <thead>
@@ -31,7 +31,30 @@
             <tbody id="body">
             </tbody>
         </table>
-    </div> 
+    </section>
+    <section class="contenedor-opciones">
+        <div class="contenedor-agregar">
+            <form action="" id="form-agregar">
+                <h3>Agregar Item</h3>
+                <div class="contenedor-inputs">
+                    <p>Nombre:</p>
+                    <input type="text" name="nombre-input">
+                </div>
+                <div class="contenedor-inputs">
+                    <p>Nivel:</p>
+                    <input type="number" name="nivel-input">
+                </div>
+                <div class="contenedor-inputs">
+                    <p>Donde Encontrarlo:</p>
+                    <input type="text" name="lugar-input">
+                </div>
+                <div>
+                    <button type="submit" class="btn-agregar">Agregar</button>
+                </div>
+            </form>
+        </div>
+        
+    </section> 
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/build.js"></script>
 </body>

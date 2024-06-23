@@ -1,0 +1,102 @@
+/*TABLA*/
+
+h2{
+    font-size: 2rem;
+    margin: 5%;
+    text-shadow: 1px 1px 1px #e4a772;
+    text-transform: capitalize;
+}
+
+table, td, tr{
+    border: 2px solid #e4a772;
+    border-collapse: collapse;
+}
+
+table{
+    width: 75%;
+    height: 75%;
+    margin-top: 5%;
+}
+
+td{
+    width: 50%;
+    height: 10%;
+}
+
+.texto-fondo{
+    background-color:#0F2627;
+    outline: none;
+    border: 0;
+    color: #e4a772;
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*CONTENEDOR DE AGREGAR Y BORRAR*/
+
+.contenedor-opciones{
+    border: 1px solid #e4a772;
+    display: flex;
+    align-content: space-between;
+}
+
+.contenedor-agregar{
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-agregar h3{
+    margin-bottom: 25px;
+}
+
+.contenedor-inputs{
+    width: 100%;
+    position: relative;
+
+}
+
+.contenedor-inputs input{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #e4a772;
+    height: 20px;
+    margin-bottom: 5%;
+}
+
+.contenedor-inputs p{
+    margin: 5%;
+    font-family: "Sedan SC", serif;
+}
+
+.btn-agregar{
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    background: #e4a772;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-family: "diablo-ligth"; 
+    font-size: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
