@@ -1,6 +1,6 @@
 /*TABLA*/
 
-h2{
+.centro h2{
     font-size: 2rem;
     margin: 5%;
     text-shadow: 1px 1px 1px #e4a772;
@@ -19,9 +19,11 @@ table{
 }
 
 td{
-    width: 50%;
+    width: fit-content;
     height: 10%;
 }
+
+
 
 .texto-fondo{
     background-color:#0F2627;
@@ -47,22 +49,20 @@ tr{
 /*CONTENEDOR DE AGREGAR Y BORRAR*/
 
 .contenedor-opciones{
-    border: 1px solid #e4a772;
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 .contenedor-agregar{
-    margin-left: 2%;
-    margin-bottom: 3%;
-    margin-top: 2%;
-    flex-direction: column;
+    width: 200px;
+    border: 1px solid #e4a772;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-left: 3%;
 }
 
-.contenedor-agregar h3{
+.contenedor-agregar h2{
     margin-bottom: 25px;
 }
 
@@ -87,7 +87,7 @@ tr{
     font-family: "Sedan SC", serif;
 }
 
-.btn-agregar{
+button{
     width: 120px;
     height: 25px;
     border-radius: 15px;
@@ -99,4 +99,109 @@ tr{
     font-size: 1rem;
     transition: 0.4s;
     cursor: pointer;
+}
+
+.btn-agregar{
+    margin-left: 10%;
+}
+
+/*BORRAR*/
+
+.contenedor-borrar{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4a772;
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contenedor-borrar h2{
+    margin-top: 0%;
+    margin-bottom: 20%;
+}
+
+.contenedor-borrar p{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    font-family: "Sedan SC", serif;
+}
+
+.contenedor-borrar input{
+    margin-left: 18%;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #e4a772;
+    height: 20px;
+    color: #e4a772;
+    font-family: "Sedan SC", serif;
+}
+
+.btn-borrar{
+    margin-left: 18%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.contenedor-borrar span{
+    font-family: "diablo ligth";
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
+/*MEDIA QUERYS*/
+
+@media (width >= 768px) {
+    .contenedor-opciones{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contenedor-agregar{
+        margin-left: 13%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e4a772;
+        width: 300px;
+    }
+
+    .contenedor-borrar{
+        margin-right: 13%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e4a772;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .contenedor-borrar input{
+        margin-right: 17%;
+    }
+
+    .contenedor-borrar button{
+        margin-right: 17%;
+    }
+
+    .contenedor-borrar span{
+        margin-top: 2%;
+        margin-right: 30%;
+    }
 }

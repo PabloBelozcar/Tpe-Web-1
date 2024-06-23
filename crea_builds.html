@@ -23,6 +23,7 @@
         <table>
             <thead>
                 <tr>
+                    <th>Nro</th>
                     <th>Nombre del objeto</th>
                     <th>Level requerido</th>
                     <th>Ubicación</th>
@@ -35,7 +36,7 @@
     <section class="contenedor-opciones">
         <div class="contenedor-agregar">
             <form action="" id="form-agregar">
-                <h3>Agregar Item</h3>
+                <h2>Agregar Item</h2>
                 <div class="contenedor-inputs">
                     <p>Nombre:</p>
                     <input type="text" name="nombre-input">
@@ -53,7 +54,13 @@
                 </div>
             </form>
         </div>
-        
+        <div class="contenedor-borrar">
+                <h2>Borrar Item</h2>
+                <p>Ingrese numero de item para borrar:</p>
+                <input type="number" name="id-item" id="id-item">
+                <button class="btn-borrar">Borrar</button>
+                <span id="aviso"></span>
+        </div>
     </section> 
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/build.js"></script>
